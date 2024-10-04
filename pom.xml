@@ -40,10 +40,11 @@
         </dependency>
 
         <dependency>
-            <groupId>com.github.erosb</groupId>
-            <artifactId>everit-json-schema</artifactId>
-            <version>1.14.3</version>
+            <groupId>org.everit.json</groupId>
+            <artifactId>org.everit.json.schema</artifactId>
+            <version>1.5.1</version>
         </dependency>
+
     </dependencies>
 
     <build>
