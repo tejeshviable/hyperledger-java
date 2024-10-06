@@ -16,6 +16,7 @@ public class NgoChaincode extends ChaincodeBase {
     public Response init(ChaincodeStub stub) {
         try {
             logger.info("Initializing NGO Chaincode...");
+            System.out.println("Initialising ......");
             return newSuccessResponse("NGO Chaincode Initialized");
         } catch (Exception e) {
             return newErrorResponse("Initialization failed: " + e.getMessage());
@@ -196,6 +197,8 @@ public class NgoChaincode extends ChaincodeBase {
 
     // Main method to start the chaincode
     public static void main(String[] args) {
+        logger.info("Main........");
+        System.out.println("Main Initialising ......");
         new NgoChaincode().start(args);
     }
 }
